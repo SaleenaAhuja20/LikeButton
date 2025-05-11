@@ -19,11 +19,37 @@ body{
     width: 300px;
     border-radius: 10px;
     background-color: wheat;
-    
+    position: relative;
 }
 .img{
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: left;
+    cursor: pointer;
 }
+.icons{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+.minihearticon{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+.hearticon{
+    color: #fff;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    transition: transform 0.4s ease;
+}
+/* .hide{
+    display: none;
+} */
